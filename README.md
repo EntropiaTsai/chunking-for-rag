@@ -5,7 +5,7 @@ project-root/
 ├── original_data.txt.template        # Your custom input text
 ├── chunking.py                       # Script for three chunking methods
 ├── build_index.py                    # Builds embeddings + FAISS index
-├── query.py                            # Query interface for retrieval
+├── query.py                          # Query interface for retrieval
 ├── faiss_index/                      # Folder for saved index and embeddings (empty in repo)
 └── vector_base/                      # Folder for saved chunked texts  (empty in repo)
 
