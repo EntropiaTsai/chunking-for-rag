@@ -9,3 +9,6 @@ faiss_index/*
 
 original_data.txt
 __pycache__
+
+# 忽略整個虛擬環境
+chunkingenv/
