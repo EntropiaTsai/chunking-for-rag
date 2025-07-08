@@ -63,6 +63,17 @@ Run the following to create chunk embeddings and store them using FAISS:
 python build_index.py
 ```
 
+It will output:
+
+- `faiss_index/statistical.index` and `statistical.index.txt`
+- `faiss_index/consecutive.index` and `consecutive.index.txt`
+- `faiss_index/cumulative.index` and `cumulative.index.txt`
+
+Each `.index` file stores the FAISS vector index for fast similarity search, while the corresponding `.txt` file contains the original chunk texts used for later retrieval.
+
+Make sure your `vector_base/` folder already contains the chunked `.json` files before running this script.
+
+
 ---
 
 ## 4. Searching Similar Chunks via `faiss`
