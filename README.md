@@ -93,5 +93,4 @@ Enter the input text you'd like to query:
 
 
 Feel free to explore which chunking strategy works best for your task!
-# chunking-for-rag # 建立一個初始 README 檔
-# chunking-for-rag
+
