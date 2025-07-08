@@ -7,8 +7,10 @@ faiss_index/*
 # 但保留空資料夾（靠這個特殊檔案來保留）
 !faiss_index/.gitkeep
 
-original_data.txt
-__pycache__
-
 # 忽略整個虛擬環境
 chunkingenv/
+
+
+original_data.txt
+__pycache__
+.DS_Store
